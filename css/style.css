@@ -132,6 +132,10 @@ footer{
     width: 100%;
 }
 
+.col-12 col-md-4 img{
+    color: #dfaf6d;
+}
+/*
 .section__container{
     display: flex;
     justify-content: center;
@@ -147,7 +151,7 @@ footer{
 .section__container p{
     padding: 20px 60px 20px 60px;
     color: #fffaf5;
-}
+}/*
 
 .row .bg-secondary img{
     max-height: 40px;
