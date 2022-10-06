@@ -1,0 +1,25 @@
+/*global*/
+
+@import "header";
+@import "footer";
+
+body{
+    background-color: #202223;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.questions__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 5px 40px 5px;
+    img{
+        width: 100%;
+    }
+    .questions__containerText{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: center;
+    padding: 20px;
+    background-color: #202223;
+    .header__logo{
+        display: flex;
+        align-items: center;
+        height: 140px;
+        a{
+            img{
+                height: 90px
+            };
+        }
+    }
+    .header__navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        nav{
+            a{
+                color: #fffaf5;
+            }
+        }
+    }
+}
