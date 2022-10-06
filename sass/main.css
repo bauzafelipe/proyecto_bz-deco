@@ -124,7 +124,7 @@ body {
   border-radius: 5px;
   height: 208px;
 }
-.questions .questions__container .questions__containerText .questions__containerBorder h2 {
+.questions .questions__container .questions__containerText .questions__containerBorder h3 {
   color: antiquewhite;
   font-family: sans-serif;
   font-size: 25px;
@@ -140,7 +140,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.questions .questions__container .questions__containerTextFinal h1 {
+.questions .questions__container .questions__containerTextFinal h2 {
   color: antiquewhite;
   font-family: sans-serif;
   font-size: 22px;
