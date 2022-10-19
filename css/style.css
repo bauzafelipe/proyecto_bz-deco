@@ -19,7 +19,7 @@ ul{
 header{
     display: flex;
     justify-content: space-between;
-    height: 180px;
+    max-height: 180px;
     align-items: center;
     padding: 20px;
     background-color: #202223;
@@ -43,7 +43,7 @@ header{
 
 nav a{
     font-weight: 650;
-    padding-right: 12px;
+    padding-left: 14px;
 }
 
 nav a:hover{
@@ -124,6 +124,13 @@ footer{
     .footer__bz{
         padding-top: 20px;
     }
+    /*preguntas frecuentes*/
+    .questions__containerTitleInicio h1{
+        font-size: 23px;
+    }
+    .questions__containerTextFinal h2{
+        font-size: 5px;
+    }
 }
 
 /*Inicio*/
@@ -158,8 +165,6 @@ footer{
 }
 
 /*Proyectos*/
-
-
 .proyectos__mainContainer{
     padding: 30px 30px 30px 30px;
     gap: 40px;
@@ -171,43 +176,91 @@ footer{
     padding-bottom: 20px;
 }
 
-/*Preguntas Frecuentes
-.questions__container{
-    display: flex;
+
+
+
+/*Preguntas Frecuentes*/
+
+.questions {
+    display: grid;
     flex-direction: column;
     align-items: center;
-    padding: 0px 5px 40px 5px;
 }
-
-.questions__container img{
+.questions img{
     width: 100%;
 }
-
-.questions__containerText{
+.questions .questions__container{
+    display: grid;
+    padding: 0px 9px 40px 9px;
+}
+.questions .questions__container .questions__containerTitleInicio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.questions .questions__container .questions__containerTitleInicio h1 {
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+.questions .questions__container .questions__containerText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.questions .questions__container .questions__containerText .questions__containerBorder {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 1px;
+    background-color: #47443f;
+    max-width: 660px;
+    padding: 40px 40px 40px 40px;
+    border: 1px solid #dbb17e;
+    border-radius: 5px;
+    height: 208px;
+}
+.questions .questions__container .questions__containerText .questions__containerBorder h3 {
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.questions .questions__container .questions__containerText .questions__containerBorder p {
+    color: bisque;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.questions .questions__container .questions__containerTextFinal {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 30px;
+}
+.questions .questions__container .questions__containerTextFinal h2 {
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.questions .questions__container .questions__containerTextFinal a{
+    display: flex;
+    justify-content: center;
+    padding: 2px 2px 2px 2px;
+    max-width: 120px;
+    color: antiquewhite;
+    border: 1px solid #dbb17e;
+    border-radius: 5px;
+    background-color: #47443f;
     
 }
 
-.questions__container .questions__containerText h1,h2{
-    font-family: sans-serif;
-    font-weight: 600px;
-    color: #fffaf5;
-    align-items: center;
-    padding: 0px 30px 0px 30px;
-}
 
-.questions__container .questions__containerText p{
-    font-family: sans-serif;
-    font-weight: 300px;
-    color: antiquewhite;
-    align-items: center;
-    padding: 0px 30px 0px 30px;
-}
-*/
+
 
 /*Nosotros*/
+
 .nosotros__container{
     display: flex;
     flex-direction: column;
