@@ -22,7 +22,8 @@ header{
     max-height: 180px;
     align-items: center;
     padding: 20px;
-    background-color: #202223;
+    background-color: #2d2e2e;
+    border-bottom: 3px solid #dbb17e;
 }
 
 .header__logo{
@@ -56,7 +57,7 @@ nav a:after{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #dfaf6d;
+    background-color: #dbb17e;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.4s ease-out;
@@ -68,7 +69,7 @@ nav a:hover:after{
 }
 
 nav a:hover{
-    color: #dfaf6d;
+    color: #dbb17e;
 }
 
 footer{
@@ -77,7 +78,8 @@ footer{
     height: 360px;
     justify-content: space-between;
     align-items: center;
-    background-color: #202223;
+    background-color: #2d2e2e;
+    border-top: 3px solid #dbb17e;
 }
 
 .footer__menu nav{
@@ -160,30 +162,6 @@ footer{
     width: 100%;
 }
 
-.col-12 col-md-4 img{
-    color: #dfaf6d;
-}
-/*
-.section__container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.section__container h1{
-    font-family: sans-serif;
-    font-weight: 600px;
-    color: #fffaf5;
-}
-
-.section__container p{
-    padding: 20px 60px 20px 60px;
-    color: #fffaf5;
-}/*
-
-.row .bg-secondary img{
-    max-height: 40px;
-}
 
 /*Proyectos*/
 .proyectos__mainContainer{
@@ -196,8 +174,41 @@ footer{
     max-height: 744px;
     padding-bottom: 20px;
 }
-
-
+.container__offer {
+    margin: 40px 9px 15px 9px;
+}
+.container__offer .container__offerGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 9px 0px 9px;
+}
+.container__offer .container__offerGrid .container__offerGridHouse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 415px;
+    margin: 15px 10px 15px 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+.container__offer .container__offerGrid .container__offerGridHouse .container__offerGridHouseText{
+    background-color: #47443f;
+    margin: 20px 10px 5px 10px;
+    padding: 0px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+}
+.container__offer .container__offerGrid .container__offerGridHouse h4{
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+.container__offer .container__offerGrid .container__offerGridHouse p{
+    font-family: sans-serif;
+    color: antiquewhite;
+}
 
 
 /*Preguntas Frecuentes*/
@@ -238,7 +249,7 @@ footer{
     background-color: #47443f;
     max-width: 660px;
     padding: 40px 40px 40px 40px;
-    border: 1px solid #dbb17e;
+    border: px solid #dbb17e;
     border-radius: 5px;
     height: 208px;
 }
@@ -370,7 +381,7 @@ footer{
     width: 100%;
     border-radius: 4px;
     outline: none;
-    border: 1px solid #dbb17e;
+    border: 0px solid #dbb17e;
     background-color: #47443f;
     color: #fffaf5;
 }
@@ -379,7 +390,7 @@ footer{
     width: 100%;
     border-radius: 4px;
     outline: none;
-    border: 1px solid #dbb17e;
+    border: 0px solid #dbb17e;
     background-color: #47443f;
     color: #fffaf5;
 }
@@ -398,4 +409,8 @@ label{
     color: #ebd6bc;
     display: flex;
     justify-content: center;
+}
+.form__conteiner .form__name .buttom__contacto{
+    margin-bottom: 5px;
+    border: 1px solid #dbb17e;
 }
