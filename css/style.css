@@ -124,6 +124,7 @@ footer{
 
 
 
+
 @media (max-width:840px){
     header{
         flex-direction: column;
@@ -135,7 +136,7 @@ footer{
     }
 
     nav a{
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 400px;
     }
     
@@ -143,9 +144,15 @@ footer{
         flex-direction: column;
         height: 360px;
     }
-
-    .footer__bz{
-        padding-top: 20px;
+    .footer__menu{
+        height: 212px;
+        display: flex;
+    }
+    .footer__menu nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
     /*preguntas frecuentes*/
     .questions__containerTitleInicio h1{
@@ -154,6 +161,50 @@ footer{
     .questions__containerTextFinal h2{
         font-size: 5px;
     }
+
+    /*contacto*/
+    .section__map .section__mapSite iframe{
+        height: 619px;
+        width: 405px;
+    }
+}
+
+@media (max-width:414px){
+    header{
+        flex-direction: column;
+        max-height: 245px;
+
+    }
+    .header__navigation nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__navigation nav a{
+        font-size: 12px;
+        font-weight: 450px;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer__menu nav a{
+        font-size: 9px;
+        font-weight: 450px;
+        margin-left: 11px;
+        margin-bottom: 9px;
+        
+    }
+    .footer__icon{
+        margin-bottom: 26px;
+        margin-left: 10px;
+    }
+
+    /*contacto*/
+    .section__map .section__mapSite iframe{
+        height: 619px;
+        width: 312px;
+    }
 }
 
 /*Inicio*/
@@ -161,21 +212,8 @@ footer{
 .main__container img{
     width: 100%;
 }
-
-
-/*Proyectos*/
-.proyectos__mainContainer{
-    padding: 30px 30px 30px 30px;
-    gap: 40px;
-}
-
-.proyectos__mainContainer .main__antesDespues img{
-    width: 100%;
-    max-height: 744px;
-    padding-bottom: 20px;
-}
 .container__offer {
-    margin: 40px 9px 15px 9px;
+    margin: 110px 9px 15px 9px;
 }
 .container__offer .container__offerGrid{
     display: flex;
@@ -190,10 +228,15 @@ footer{
     max-width: 415px;
     margin: 15px 10px 15px 10px;
     padding: 5px 10px 5px 10px;
+    border: 1px solid #dbb17e;
     border-radius: 3px;
+    transition: 0.7s;
+}
+.container__offer .container__offerGrid .container__offerGridHouse:hover{
+    background-color: #2d2e2e;
+    transform: scale(1.1);
 }
 .container__offer .container__offerGrid .container__offerGridHouse .container__offerGridHouseText{
-    background-color: #47443f;
     margin: 20px 10px 5px 10px;
     padding: 0px 5px 5px 5px;
     display: flex;
@@ -209,6 +252,21 @@ footer{
     font-family: sans-serif;
     color: antiquewhite;
 }
+
+
+
+/*Proyectos*/
+.proyectos__mainContainer{
+    padding: 30px 30px 30px 30px;
+    gap: 40px;
+}
+
+.proyectos__mainContainer .main__antesDespues img{
+    width: 100%;
+    max-height: 744px;
+    padding-bottom: 20px;
+}
+
 
 
 /*Preguntas Frecuentes*/
@@ -248,10 +306,14 @@ footer{
     border-radius: 1px;
     background-color: #47443f;
     max-width: 660px;
-    padding: 40px 40px 40px 40px;
+    padding: 10px 10px 40px 10px;
     border: px solid #dbb17e;
     border-radius: 5px;
-    height: 208px;
+    height: auto;
+    transition: 0.7s;
+}
+.questions .questions__container .questions__containerText .questions__containerBorder:hover{
+    transform: scale(1.02);
 }
 .questions .questions__container .questions__containerText .questions__containerBorder h3 {
     color: antiquewhite;
@@ -286,6 +348,10 @@ footer{
     border-radius: 5px;
     background-color: #47443f;
     
+}
+.questions .questions__container .questions__containerTextFinal a:hover{
+    background-color: #dbb17e;
+    color: #fffaf5;
 }
 
 
@@ -345,7 +411,9 @@ footer{
 
 .section__container{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 110px 9px 9px 9px;
     align-items: center;
     background-color: #202223;
 }
@@ -354,9 +422,26 @@ footer{
     background-color: #202223;
     padding: 25px 30px;
 }
-
+.section__map{
+    margin: 25px 30px 25px 30px;
+}
+.section__map .section__mapTitle{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    font-family: sans-serif;
+    color: #ebd6bc;
+    display: flex;
+    justify-content: center;
+}
+.section__map .section__mapSite{
+    margin: 29px 9px 0px 9px;
+}
+.section__map .section__mapSite iframe{
+    height: 619px;
+}
 .section__form .title__form{
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     padding-bottom: 40px;
     font-family: sans-serif;
