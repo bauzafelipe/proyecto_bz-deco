@@ -199,6 +199,10 @@ footer{
         margin-bottom: 26px;
         margin-left: 10px;
     }
+    /*nosotros*/
+    .nosotros__containerEquipo .nosotros__containerEquipoTrabajo img{
+        width: 100%;
+     }
 
     /*contacto*/
     .section__map .section__mapSite iframe{
@@ -363,23 +367,16 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 5px 40px 5px;
+    margin: 70px 9px 15px 9px;
 }
-
-.nosotros__containerImage{
+.nosotros__main .nosotros__mainImage img{
     width: 100%;
 }
-
-.nosotros__containerImage img{
-    width: 100%;
-}
-
 .nosotros__containerText{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .nosotros__container .nosotros__containerText h1{
     font-family: sans-serif;
     font-weight: 600px;
@@ -387,7 +384,6 @@ footer{
     align-items: center;
     padding: 0px 30px 0px 30px;
 }
-
 .nosotros__container .nosotros__containerText p{
     font-family: sans-serif;
     font-weight: 300px;
@@ -395,6 +391,56 @@ footer{
     align-items: center;
     padding: 0px 30px 0px 30px;
 }
+.nosotros__equipo{
+    font-family: sans-serif;
+    color: antiquewhite;
+    font-weight: bolder;
+    margin: 90px 9px 10px 9px;
+}
+.nosotros__containerEquipo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 0px 40px 0px;
+    padding: 0px 9px 0px 9px;
+}
+.nosotros__containerEquipoTrabajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 30px 15px 30px;
+    transition: 0.7s;
+}
+.nosotros__containerEquipoTrabajo:hover{
+transform: scale(1);
+}
+.nosotros__containerEquipoTrabajoText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotros__containerEquipoTrabajoText h4{
+    font-family: sans-serif;
+    color:#f3e0c9;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.nosotros__containerEquipoTrabajoText p{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: bisque;
+    margin-top: 0px;
+    max-width: 382px;
+}
+.nosotros__containerEquipoTrabajoText h5{
+    font-family: sans-serif;
+    color: #f3e0c9;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+
 
 
 
