@@ -154,6 +154,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+
     /*preguntas frecuentes*/
     .questions__containerTitleInicio h1{
         font-size: 23px;
@@ -161,6 +162,7 @@ footer{
     .questions__containerTextFinal h2{
         font-size: 5px;
     }
+
     /*inicio*/
     .container__offer .container__offerTittle h1{
         font-family: sans-serif;
@@ -169,6 +171,20 @@ footer{
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
+    }
+
+    /*proyectos*/
+    .section__proyectos .section__proyectosText h1{
+        color: antiquewhite;
+        letter-spacing: 2px;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .section__proyectos .section__proyectosText p{
+        color: bisque;
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-family: sans-serif;
     }
 
     /*contacto*/
@@ -233,7 +249,7 @@ footer{
     /*proyectos*/
     .section__proyectos .section__proyectosText h1{
         color: antiquewhite;
-        font-size: 13px;
+        font-size: 11px;
         font-family: sans-serif;
     }
     .section__proyectos .section__proyectosText p{
@@ -253,6 +269,12 @@ footer{
     }
 
     /*nosotros*/
+    .nosotros__container .nosotros__equipo{
+        color: antiquewhite;
+        font-family: sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
     .nosotros__containerEquipo .nosotros__containerEquipoTrabajo img{
         width: 100%;
     }
@@ -299,7 +321,7 @@ footer{
 .container__offerPrestaciones{
     background-color: #202223;
     padding: 25px 40px 45px 40px;
-    box-shadow: .90em .95em 1em #353432;
+    box-shadow: .10em .99em 0.7em #353432;
     margin-top: -5px;
     display: flex;
     flex-direction: column;
@@ -395,7 +417,10 @@ footer{
     box-shadow: .10em .99em 0.7em #353432;
 }
 .section__proyectosText{
-    padding: 5%;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -514,7 +539,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 9px 15px 9px;
+    margin: 40px 0px 15px 0px;
 }
 .nosotros__main .nosotros__mainImage img{
     width: 100%;
@@ -523,16 +548,23 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 40px 9px 45px 9px;
+    box-shadow: .10em .99em 0.7em #353432;
 }
-.nosotros__container .nosotros__containerText h1{
+.nosotros__containerText h1{
     font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
     font-weight: 600px;
     color: #fffaf5;
     align-items: center;
     padding: 0px 30px 0px 30px;
 }
-.nosotros__container .nosotros__containerText p{
+.nosotros__containerText p{
     font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
     font-weight: 300px;
     color: antiquewhite;
     align-items: center;
@@ -540,6 +572,8 @@ footer{
 }
 .nosotros__equipo{
     font-family: sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
     color: antiquewhite;
     font-weight: bolder;
     margin: 90px 9px 10px 9px;
