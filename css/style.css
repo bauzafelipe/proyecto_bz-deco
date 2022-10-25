@@ -78,7 +78,7 @@ footer{
     height: 360px;
     justify-content: space-between;
     align-items: center;
-    background-color: #2d2e2e;
+    background-color: rgb(45, 46, 46);
     border-top: 3px solid #dbb17e;
 }
 
@@ -234,7 +234,7 @@ footer{
         margin-bottom: 30px;
     }
     .container__offer .container__offerPrestaciones h4{
-        color: antiquewhite;
+        color: #faebd7;
         font-family: sans-serif;
         font-size: 13px;
         letter-spacing: 1px;
@@ -266,6 +266,12 @@ footer{
         font-size: 12px;
         letter-spacing: 1px;
         font-weight: bold;
+    }
+    .questions .questions__container .questions__containerTextFinal h2{
+        color: antiquewhite;
+        font-family: sans-serif;
+        font-size: 15px;
+        letter-spacing: 1px;
     }
 
     /*nosotros*/
@@ -509,7 +515,7 @@ footer{
     justify-items: center;
     gap: 30px;
 }
-.questions .questions__container .questions__containerTextFinal h2 {
+.questions__containerTextFinal h2 {
     color: antiquewhite;
     font-family: sans-serif;
     font-size: 22px;
