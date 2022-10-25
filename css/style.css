@@ -29,7 +29,7 @@ header{
 .header__logo{
     display: flex;
     align-items: center;
-    height:140px ;
+    height:95px ;
 }
 
 .header__logo img{
@@ -161,6 +161,15 @@ footer{
     .questions__containerTextFinal h2{
         font-size: 5px;
     }
+    /*inicio*/
+    .container__offer .container__offerTittle h1{
+        font-family: sans-serif;
+        color: bisque;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
 
     /*contacto*/
     .section__map .section__mapSite iframe{
@@ -199,10 +208,20 @@ footer{
         margin-bottom: 26px;
         margin-left: 10px;
     }
+    /*inicio*/
+    .container__offer .container__offerTittle h1{
+        font-family: sans-serif;
+        color: bisque;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
     /*nosotros*/
     .nosotros__containerEquipo .nosotros__containerEquipoTrabajo img{
         width: 100%;
-     }
+    }
 
     /*contacto*/
     .section__map .section__mapSite iframe{
@@ -215,9 +234,18 @@ footer{
 
 .main__container img{
     width: 100%;
+    height: auto;
 }
 .container__offer {
-    margin: 110px 9px 15px 9px;
+    margin: 60px 9px 15px 9px;
+}
+.container__offerTittle h1{
+    font-family: sans-serif;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 32px;
 }
 .container__offer .container__offerGrid{
     display: flex;
@@ -237,7 +265,7 @@ footer{
     transition: 0.7s;
 }
 .container__offer .container__offerGrid .container__offerGridHouse:hover{
-    background-color: #2d2e2e;
+    background-color: #2b2c2c;
     transform: scale(1.1);
 }
 .container__offer .container__offerGrid .container__offerGridHouse .container__offerGridHouseText{
@@ -260,6 +288,15 @@ footer{
 
 
 /*Proyectos*/
+.header__proyecto{
+    display: flex;
+    justify-content: space-between;
+    max-height: 300px;
+    align-items: center;
+    padding: 20px;
+    background-color: #2d2e2e;
+    border-bottom: 3px solid #dbb17e;
+}
 .proyectos__mainContainer{
     padding: 30px 30px 30px 30px;
     gap: 40px;
@@ -411,6 +448,9 @@ footer{
     margin: 15px 30px 15px 30px;
     transition: 0.7s;
 }
+.nosotros__containerEquipoTrabajo img{
+    border-radius: 5px;
+}
 .nosotros__containerEquipoTrabajo:hover{
 transform: scale(1);
 }
@@ -447,8 +487,6 @@ transform: scale(1);
 
 /*Contacto*/
 
-.imagenContacto{
-}
 
 .main_imgContacto{
     width: 100%;
@@ -485,6 +523,7 @@ transform: scale(1);
 }
 .section__map .section__mapSite iframe{
     height: 619px;
+    border-radius: 4px;
 }
 .section__form .title__form{
     font-size: 24px;
