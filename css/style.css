@@ -212,10 +212,44 @@ footer{
     .container__offer .container__offerTittle h1{
         font-family: sans-serif;
         color: bisque;
-        font-size: 12px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
+    }
+    .container__offer .container__offerPrestaciones h4{
+        color: antiquewhite;
+        font-family: sans-serif;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .container__offer .container__offerPrestaciones p{
+        color: bisque;
+        font-family: sans-serif;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    /*proyectos*/
+    .section__proyectos .section__proyectosText h1{
+        color: antiquewhite;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+    .section__proyectos .section__proyectosText p{
+        color: bisque;
+        font-size: 11px;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+    }
+
+    /*preguntas frecuentes*/
+    .questions__container .questions__containerTitleInicio h1{
+        color: antiquewhite;
+        font-family: sans-serif;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: bold;
     }
 
     /*nosotros*/
@@ -224,6 +258,26 @@ footer{
     }
 
     /*contacto*/
+    .section__map .section__mapTitle{
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding-bottom: 40px;
+        font-family: sans-serif;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+    }
+    .section__form .title__form{
+        font-size: 13px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        font-family: sans-serif;
+        color: antiquewhite;
+        display: flex;
+        justify-content: center;
+    }
     .section__map .section__mapSite iframe{
         height: 619px;
         width: 312px;
@@ -232,12 +286,39 @@ footer{
 
 /*Inicio*/
 
+.main__container{
+    background-color: #202223;
+}
 .main__container img{
     width: 100%;
     height: auto;
 }
 .container__offer {
-    margin: 60px 9px 15px 9px;
+    margin: 0px 0px 15px 0px;
+}
+.container__offerPrestaciones{
+    background-color: #202223;
+    padding: 25px 40px 45px 40px;
+    box-shadow: .90em .95em 1em #353432;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__offerPrestaciones h4{
+    font-family: sans-serif;
+    color: bisque;
+    font-size: 25px;
+}
+.container__offerPrestaciones p{
+    color: bisque;
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.container__offerTittle{
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 .container__offerTittle h1{
     font-family: sans-serif;
@@ -307,7 +388,36 @@ footer{
     max-height: 744px;
     padding-bottom: 20px;
 }
+.section__proyectos{
+    margin: 0px 0px 55px 0px;
+    display: grid;
+    flex-wrap: wrap;
+    box-shadow: .10em .99em 0.7em #353432;
+}
+.section__proyectosText{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section__proyectosText h1{
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    font-family: sans-serif;
+    font-weight: 45px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.section__proyectosText p{
+    color: bisque;
+    font-family: sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 10px 9px 10px 9px;
 
+}
 
 
 /*Preguntas Frecuentes*/
@@ -330,7 +440,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-.questions .questions__container .questions__containerTitleInicio h1 {
+.questions__containerTitleInicio h1 {
     color: antiquewhite;
     font-family: sans-serif;
 }
@@ -504,12 +614,12 @@ transform: scale(1);
 
 .section__form{
     background-color: #202223;
-    padding: 25px 30px;
+    padding: 25px 45px 25px 30px;
 }
 .section__map{
     margin: 25px 30px 25px 30px;
 }
-.section__map .section__mapTitle{
+.section__mapTitle{
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 40px;
@@ -525,7 +635,7 @@ transform: scale(1);
     height: 619px;
     border-radius: 4px;
 }
-.section__form .title__form{
+.title__form{
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 40px;
